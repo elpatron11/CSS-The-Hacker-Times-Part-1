@@ -57,6 +57,8 @@ a:link{
   }
 
   nav{
+      position:sticky;
+      top:1em;  
      
   }
   header{
@@ -67,3 +69,17 @@ a:link{
     padding:1em;
     border:3em bold rgb(110, 25, 25);
   }
+
+ section{
+      display:inline-block;
+      width: 25em;
+      height: 30em;
+      padding: 5px;
+      border: 1px solid transparent ;    
+      background-color: white; 
+    }
+  section p{
+    width: 300px;
+   
+  }
+  
