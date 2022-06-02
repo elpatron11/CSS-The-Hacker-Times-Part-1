@@ -2,8 +2,11 @@
 
 body {
     font-family: Source Sans Pro;
-    padding:1em;
-    border:7em solid #eee;
+
+    padding-left: 10em;
+    padding-right: 5em;
+
+    border:4em solid #eee;
    margin:auto;
     color: default;
      box-shadow: #ddd
@@ -72,14 +75,17 @@ a:link{
 
  section{
       display:inline-block;
-      width: 25em;
+      width: 17em;
       height: 30em;
       padding: 5px;
-      border: 1px solid transparent ;    
+      border: 1em solid transparent ;    
       background-color: white; 
     }
   section p{
     width: 300px;
    
   }
-  
+  footer{
+   
+       text-align: center;
+      }
